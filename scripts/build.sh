@@ -1,4 +1,4 @@
-./scripts/capella.sh
+./scripts/dr.sh
 
 # =============================================
 # Clear build directory
