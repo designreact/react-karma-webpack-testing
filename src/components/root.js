@@ -1,11 +1,15 @@
+var birdman = require('../static/img/birdman.jpg');
+
 var React = require('react');
+var Service = require('../utils/service');
 
 var Root = React.createClass({
 
   render: function () {
+    var summed = Service.sum(100, 230);
     return (
       <div>
-        <h1>Hello World!!!</h1>
+        <h1>Hello World!!! {summed}</h1>
 
         <p>
           Please input your name here:
